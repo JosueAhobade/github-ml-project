@@ -1,0 +1,54 @@
+# =========================
+# Data manipulation
+# =========================
+numpy
+pandas
+scikit-learn
+
+# =========================
+# NLP / Text processing
+# =========================
+nltk
+spacy
+regex
+
+# =========================
+# ML / Models
+# =========================
+xgboost
+lightgbm
+imbalanced-learn
+
+# =========================
+# Experiment tracking
+# =========================
+mlflow
+
+# =========================
+# Data access
+# =========================
+sqlalchemy
+mysql-connector-python>=8.2
+
+# =========================
+# Serialization
+# =========================
+joblib
+
+# =========================
+# Utilities
+# =========================
+python-dotenv
+tqdm
+pyyaml
+
+# =========================
+# Kafka (si tu veux relier plus tard)
+# =========================
+kafka-python
+
+# =========================
+# Visualization (optionnel mais utile)
+# =========================
+matplotlib
+seaborn

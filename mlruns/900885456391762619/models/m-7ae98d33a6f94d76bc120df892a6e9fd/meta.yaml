@@ -1,0 +1,10 @@
+artifact_location: file:///Users/josue/Documents/Master2/BigData/Github-issues-ml/mlruns/900885456391762619/models/m-7ae98d33a6f94d76bc120df892a6e9fd/artifacts
+creation_timestamp: 1769691613053
+experiment_id: '900885456391762619'
+last_updated_timestamp: 1769691614735
+model_id: m-7ae98d33a6f94d76bc120df892a6e9fd
+model_type: null
+name: model
+source_run_id: edb8e1a4c20f4b49907d81d6c3091f1d
+status: 2
+status_message: null

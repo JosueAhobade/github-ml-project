@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow
+    ports:
+      - "5030:5030"
+    volumes:
+      - ./mlruns:/mlruns
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5030
+      --backend-store-uri sqlite:////mlruns/mlflow.db
+      --default-artifact-root /mlruns
+
+  api:
+    build:
+      context: .
+      dockerfile: src/api/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - ./models:/app/models
+    depends_on:
+      - mlflow
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: src/dashboard/Dockerfile
+    ports:
+      - "8501:8501"
+    env_file: .env
+    depends_on:
+      - api

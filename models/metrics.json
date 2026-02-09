@@ -1,0 +1,63 @@
+{
+  "run_id": "d21a91abd1e640b694956914f42352e3",
+  "timestamp": 1770633380,
+  "data_path": "/Users/josue/Documents/Master2/BigData/Github-issues-ml/src/api/data/raw/collect_latest_3.csv",
+  "n_used": 50000,
+  "train_size": 30000,
+  "val_size": 10000,
+  "test_size": 10000,
+  "train_accuracy": 0.7125666666666667,
+  "val_accuracy": 0.5735,
+  "test_accuracy": 0.5737,
+  "confusion_matrix": [
+    [
+      2405,
+      1279,
+      86
+    ],
+    [
+      1233,
+      2400,
+      210
+    ],
+    [
+      474,
+      981,
+      932
+    ]
+  ],
+  "classification_report": {
+    "Flash (<35m)": {
+      "precision": 0.5848735408560312,
+      "recall": 0.6379310344827587,
+      "f1-score": 0.6102512052778483,
+      "support": 3770.0
+    },
+    "Day (<24h)": {
+      "precision": 0.5150214592274678,
+      "recall": 0.624512099921936,
+      "f1-score": 0.5645066447136304,
+      "support": 3843.0
+    },
+    "Slow (>24h)": {
+      "precision": 0.758957654723127,
+      "recall": 0.39044826141600336,
+      "f1-score": 0.5156293222683265,
+      "support": 2387.0
+    },
+    "accuracy": 0.5737,
+    "macro avg": {
+      "precision": 0.6196175516022087,
+      "recall": 0.5509637986068994,
+      "f1-score": 0.5634623907532683,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.59958326386625,
+      "recall": 0.5737,
+      "f1-score": 0.5700853271786465,
+      "support": 10000.0
+    }
+  },
+  "model_path": "/Users/josue/Documents/Master2/BigData/Github-issues-ml/models/final_model_xgboost.pkl"
+}

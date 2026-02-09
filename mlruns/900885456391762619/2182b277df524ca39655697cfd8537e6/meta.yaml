@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/josue/Documents/Master2/BigData/Github-issues-ml/mlruns/900885456391762619/2182b277df524ca39655697cfd8537e6/artifacts
+end_time: 1769349631620
+entry_point_name: ''
+experiment_id: '900885456391762619'
+lifecycle_stage: active
+run_id: 2182b277df524ca39655697cfd8537e6
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769349629355
+status: 3
+tags: []
+user_id: josue

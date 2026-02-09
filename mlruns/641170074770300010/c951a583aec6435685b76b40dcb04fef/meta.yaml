@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/josue/Documents/Master2/BigData/Github-issues-ml/mlruns/641170074770300010/c951a583aec6435685b76b40dcb04fef/artifacts
+end_time: 1770388944073
+entry_point_name: ''
+experiment_id: '641170074770300010'
+lifecycle_stage: active
+run_id: c951a583aec6435685b76b40dcb04fef
+run_name: popular-grouse-881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770388892215
+status: 3
+tags: []
+user_id: josue

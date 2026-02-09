@@ -1,0 +1,22 @@
+artifact_path: file:///Users/josue/Documents/Master2/BigData/Github-issues-ml/mlruns/900885456391762619/models/m-b2a70dd2819c4d7bb1126ed6891fe8e8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-b2a70dd2819c4d7bb1126ed6891fe8e8
+model_size_bytes: 12214207
+model_uuid: m-b2a70dd2819c4d7bb1126ed6891fe8e8
+prompts: null
+run_id: 30e5949077954a728702c4f840c70220
+utc_time_created: '2026-01-25 14:33:45.945800'

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/josue/Documents/Master2/BigData/Github-issues-ml/mlruns/898573879405093697/e0941f094ac84cf3844ecb16e4910bee/artifacts
+end_time: 1769943022615
+entry_point_name: ''
+experiment_id: '898573879405093697'
+lifecycle_stage: active
+run_id: e0941f094ac84cf3844ecb16e4910bee
+run_name: upset-wolf-206
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769942999002
+status: 3
+tags: []
+user_id: josue
