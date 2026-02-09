@@ -4,8 +4,8 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     MODEL_PATH=/app/models/final_model_xgboost.pkl \
     METRICS_PATH=/app/models/metrics.json \
-    TRAIN_SCRIPT=/app/training/train_model.py \
-    COLLECT_SCRIPT=/app/src/scripts/collect_data.py
+    TRAIN_SCRIPT=/app/training/train_v2.py \
+    COLLECT_SCRIPT=/app/src/scripts/acquire_data.py
 
 WORKDIR /app
 
