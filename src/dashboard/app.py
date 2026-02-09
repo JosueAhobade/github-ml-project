@@ -383,8 +383,8 @@ with tab3:
 
         fig_corr = px.scatter(
             closed_sample,
-            x="stars_plot",
-            y="ttc_plot",
+            x="ttc_plot",
+            y="stars_plot",
             color="language",
             log_x=True,
             log_y=True,
