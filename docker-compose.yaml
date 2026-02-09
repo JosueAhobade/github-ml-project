@@ -24,6 +24,8 @@ services:
     env_file: .env
     volumes:
       - ./models:/app/models
+    environment:
+      - COLLECT_SCRIPT=/app/src/scripts/collect.py
     depends_on:
       - mlflow
 
