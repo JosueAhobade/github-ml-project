@@ -43,7 +43,15 @@ def collect_to_csv(n_rows: int, out_path: str, mark_processed: bool = True) -> d
     cursor = db.cursor()
     try:
         df = pd.read_sql(BASE_QUERY, db, params=(n_rows,))
-        df.to_csv(out_path, index=False)
+        import csv
+
+        df.to_csv(
+            out_path,
+            index=False,
+            encoding="utf-8",
+            escapechar="\\",              # IMPORTANT
+            quoting=csv.QUOTE_MINIMAL,    # ou QUOTE_ALL si tu veux être safe
+        )
 
         if mark_processed and len(df):
             issue_ids = df["issue_id"].tolist()
