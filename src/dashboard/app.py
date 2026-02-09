@@ -21,6 +21,7 @@ import requests
 import streamlit as st
 import os
 from dotenv import load_dotenv
+import csv
 
 load_dotenv()  # charge .env à la racine
 
@@ -690,7 +691,10 @@ with tab5:
 st.divider()
 st.download_button(
     "Télécharger les données filtrées (CSV)",
-    data=fdf.to_csv(index=False).encode("utf-8"),
+    data=fdf.to_csv(
+        index=False,
+        quoting=csv.QUOTE_MINIMAL
+    ).encode("utf-8"),
     file_name="github_issues_filtered.csv",
     mime="text/csv",
 )

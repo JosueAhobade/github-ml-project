@@ -52,3 +52,4 @@ kafka-python
 # =========================
 matplotlib
 seaborn
+csv
