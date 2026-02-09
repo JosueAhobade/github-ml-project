@@ -25,7 +25,7 @@ services:
     volumes:
       - ./models:/app/models
     environment:
-      - COLLECT_SCRIPT=/app/src/scripts/collect.py
+      - COLLECT_SCRIPT=/app/src/scripts/acquire_data.py
     depends_on:
       - mlflow
 
