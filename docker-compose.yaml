@@ -34,5 +34,7 @@ services:
     ports:
       - "8501:8501"
     env_file: .env
+    environment:
+      - API_URL=http://api:8000
     depends_on:
       - api

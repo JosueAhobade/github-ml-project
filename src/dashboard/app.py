@@ -44,7 +44,7 @@ def cfg(key: str, default=None):
     return os.getenv(key, default)
 
 
-API_BASE = cfg("API_BASE", "http://localhost:8000").rstrip("/")
+API_BASE = cfg("API_BASE", "http://api:8000").rstrip("/")
 API_TOKEN = cfg("API_TOKEN", "")
 
 PREDICT_URL = f"{API_BASE}/predict"
